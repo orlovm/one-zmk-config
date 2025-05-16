@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
   default:
   - ']'
@@ -12,19 +13,19 @@ layers:
   - O
   - P
   - '['
-  - {t: ESCAPE, h: LEFT ALT}
-  - A
-  - S
-  - D
-  - F
+  - ESCAPE
+  - {t: A, h: LEFT ALT}
+  - {t: S, h: LEFT GUI}
+  - {t: D, h: Ctrl}
+  - {t: R, h: LEFT SHIFT}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: Ctrl}
+  - {t: L, h: RIGHT GUI}
+  - {t: ;, h: RIGHT ALT}
   - ''''
-  - {t: '`', h: Ctl+ LEFT SHIFT}
+  - {t: '`', h: Ctl+LEFT SHIFT}
   - Z
   - X
   - C
