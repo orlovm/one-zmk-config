@@ -16,8 +16,8 @@ manifest:
 =======
   
   # ZMK modules
-    - name: zmk-adaptive-key
-      path: modules/zmk/adaptive-key
+    - name: zmk-helpers
+      path: modules/zmk/helpers
       
 >>>>>>> aa11266 (helpers)
   self:
