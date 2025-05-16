@@ -4,21 +4,20 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: ergonautkb
       url-base: https://github.com/ergonautkb
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-<<<<<<< HEAD
     - name: ergonautkb-zmk-module
       remote: ergonautkb
       revision: main
-=======
   
-  # ZMK modules
     - name: zmk-helpers
-      path: modules/zmk/helpers
+      remote: urob
+      revision: main
       
->>>>>>> aa11266 (helpers)
   self:
     path: config
