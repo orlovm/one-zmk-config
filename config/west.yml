@@ -9,8 +9,16 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+<<<<<<< HEAD
     - name: ergonautkb-zmk-module
       remote: ergonautkb
       revision: main
+=======
+  
+  # ZMK modules
+    - name: zmk-adaptive-key
+      path: modules/zmk/adaptive-key
+      
+>>>>>>> aa11266 (helpers)
   self:
     path: config
