@@ -7,5 +7,10 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+  
+  # ZMK modules
+    - name: zmk-adaptive-key
+      path: modules/zmk/adaptive-key
+      
   self:
     path: config
