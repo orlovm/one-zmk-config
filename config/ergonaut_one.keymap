@@ -46,6 +46,19 @@
       };
     };
 
+    macros {
+        alt_shift: alt_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+                = <&macro_press &kp LSHFT>
+                , <&macro_release &kp LALT>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+    };
+
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
