@@ -41,6 +41,8 @@ parse_config:
     '&mkp MCLK': Middle Click
     '&mkp MB4': Back Click
     '&mkp MB5': Forward Click
+    'hrml': HRML
+    'hrmr': HRMR
 
   zmk_combos:
     combo_tab:    {align: top, o: 0.15}
